@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+
 body {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
     height: 1000px;
+    font-family: 'Xanh Mono', monospace;
 }
 
 a {
@@ -33,7 +36,7 @@ a {
     display: inline-block;
     position: relative;
     top: 85px;
-    left: 32%;
+    left: 34%;
 }
 
 .menu .titre li {
@@ -95,13 +98,31 @@ a {
 }
 
 .deuxiemeBlock {
-    height: 500px;
+    height: 430px;
     background-image: url("http://www.supportduweb.com/page/images/uploads/gifAsm_urouSWepptbd408.png");
     background-size: cover;
     text-align: center;
 }
 
-.deuxiemeBlock .titre {
+.deuxiemeBlock span {
     position: relative;
+    top: 35px;
+    font-size: 30px;
+}
 
+.deuxiemeBlock .button {
+    position: relative;
+    height: 30px;
+    width: 90px;
+    top: 80px;
+    left: 46%;
+    background-color: #a85258;
+    border-radius: 20px;
+}
+
+.deuxiemeBlock .button span {
+    position: relative;
+    top: 2px;
+    font-size: 10px;
+    color: white;
 }
