@@ -1,0 +1,131 @@
+.page {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    height: 900px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+textarea{
+    -moz-appearance:none;
+    outline: 0px none transparent;
+}
+
+*:focus {
+    outline: 0;
+}
+
+#logoGoogle {
+    position: absolute;
+    left: 40%;
+    top: 200px;
+    width: 250px;
+}
+
+.barreRecherche {
+    z-index: 1;
+    position: absolute;
+    width: 400px;
+    height: 30px;
+    top: 300px;
+    left: 35%;
+    border-radius: 50px;
+    border: solid 1px lightgrey;
+    resize: none;
+}
+
+.logoRecherche {
+    z-index: 2;
+    position: absolute;
+    color: lightgrey;
+    top: 310px;
+    left: 36%;
+    font-size: 15px;
+}
+
+.logoMicro{
+    z-index: 2;
+    position: absolute;
+    color: blue;
+    top: 310px;
+    right: 40%;
+    font-size: 15px;
+}
+
+.boutonRecherche {
+    display: block;
+    position: absolute;
+    width: 130px;
+    height: 30px;
+    top: 350px;
+    left: 40%;
+    background-color: lightgrey;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.boutonRecherche span {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 5px;
+    font-size: 15px;
+}
+
+.boutonChance {
+    display: block;
+    position: absolute;
+    width: 130px;
+    height: 30px;
+    top: 350px;
+    left: 50%;
+    background-color: lightgrey;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.boutonChance span {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 5px;
+    font-size: 15px;
+}
+
+.droite {
+    position: absolute;
+    list-style: none;
+    top: 0;
+    right: 0;
+}
+
+.droite li {
+    display: inline;
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.connexion {
+    top: -5px;
+    left: 0;
+    position: relative;
+    display: inline-block;
+    height: 22px;
+    width: 70px;
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+.connexion span {
+    position: relative;
+    top: 3px;
+}
