@@ -28,12 +28,14 @@ a {
     left: 43%;
     top: 11px;
     width: 200px;
+    margin-left: auto;
 }
 
 
 .menu .titre{
     list-style: none;
     display: inline-block;
+    margin-left: auto;
     position: relative;
     top: 85px;
     left: 34%;
@@ -125,4 +127,88 @@ a {
     top: 2px;
     font-size: 10px;
     color: white;
+}
+
+.troisiemeBlock {
+    position: relative;
+    top: -30px;
+    height: 1000px;
+    background-color: #fafaeb;
+}
+
+.troisiemeBlock .blockInterieur{
+    margin: auto;
+    height: 1000px;
+    width: 800px;
+    background-color: white;
+    text-align: center;
+    color: saddlebrown;
+}
+
+.troisiemeBlock .blockInterieur h1{
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.troisiemeBlock .blockInterieur p {
+    font-size: 15px;
+}
+
+.troisiemeBlock .blockInterieur .listeTea{
+    width: 100%;
+    height: 250px;
+    background-color: #f2f2f2;
+    position: relative;
+    top: 70px;
+    text-align: center;
+}
+
+.troisiemeBlock .blockInterieur .listeTea ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.troisiemeBlock .blockInterieur .listeTea ul li {
+    display: inline;
+}
+
+.troisiemeBlock .blockInterieur .listeTea ul li img{
+    height: 160px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+
+.troisiemeBlock .blockInterieur .listeTea ul li span{
+    position: relative;
+    display: block;
+    top: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+#tea1 {
+    position: absolute;
+    left: 36px;
+    font-size: 12px;
+}
+
+#tea2 {
+    position: absolute;
+    left: 230px;
+    font-size: 12px;
+}
+
+#tea3 {
+    position: absolute;
+    left: 410px;
+    font-size: 12px;
+}
+
+#tea4 {
+    position: absolute;
+    left: 595px;
+    font-size: 12px;
 }
